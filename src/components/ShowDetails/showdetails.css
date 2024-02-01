@@ -3,6 +3,7 @@
     width: 100%;
     height: 100vh;
     align-items: center;
+    justify-content: center;
 }
 
 .image {
@@ -108,6 +109,7 @@
 
     .details-container{
         flex-direction: column;
+        justify-content: start;
     }
 
     .image{
