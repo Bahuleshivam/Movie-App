@@ -2,7 +2,6 @@
     display: flex;
     width: 100%;
     height: 100vh;
-    justify-content: center;
     align-items: center;
 }
 
@@ -114,6 +113,11 @@
     .image{
         width: 90%;
         margin-top: 10px;
+        height: 300px;
+    }
+
+    .image img{
+        aspect-ratio: 3/2;
     }
 
     .details-heading{
@@ -131,6 +135,10 @@
 
     .form{
         width: 60%;
+    }
+
+    .details{
+        width: 80%;
     }
 
 }
